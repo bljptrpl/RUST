@@ -8,3 +8,4 @@ SensorsEXPO_STM32/LAB_2/svd2rustU5/blinky/target
 
 SensorsEXPO_STM32/LAB_2/svd2rustU5/hello_world/
 *.x
+*.svd
