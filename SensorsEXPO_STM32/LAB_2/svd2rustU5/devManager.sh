@@ -3,7 +3,7 @@
 # Function to build the Docker image
 docker_image() {
     echo "Building the Docker image..."
-    docker build -t YOURNAME/embedded-rust-dev -f docker/Dockerfile .
+    docker build -t Villalva/embedded-rust-dev -f docker/Dockerfile .
     echo "Docker image built successfully."
 }
 
@@ -11,10 +11,10 @@ docker_image() {
 docker_run() {
     if [[ "$OSTYPE" == "msys" || "$OSTYPE" == "win32" ]]; then
         echo "Running Docker container on Windows..."
-        cmd /c "docker run --rm -it --privileged -v "%CD%:/home/app" YOURNAME/embedded-rust-dev:latest"
+        cmd /c "docker run --rm -it --privileged -v "%CD%:/home/app" Villalva/embedded-rust-dev:latest"
     else
         echo "Running Docker container on MacOS/Linux..."
-        docker run --rm -it --privileged -v "${PWD}:/home/app" YOURNAME/embedded-rust-dev:latest bash
+        docker run --rm -it --privileged -v "${PWD}:/home/app" Villalva/embedded-rust-dev:latest bash
     fi
 }
 

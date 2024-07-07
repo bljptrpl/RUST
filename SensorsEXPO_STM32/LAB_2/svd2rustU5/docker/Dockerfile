@@ -65,13 +65,13 @@ RUN cargo install form
 #RUN rustup target add thumbv7em-none-eabi
 
 #Cortex-M4F and M7F with FPU (ARMv7E-M architecture):
-RUN rustup target add thumbv7em-none-eabihf
+#RUN rustup target add thumbv7em-none-eabihf
 
 #Cortex-M23 (ARMv8-M Baseline architecture):
 #RUN rustup target add thumbv8m.base-none-eabi
 
 #Cortex-M33 (ARMv8-M Mainline architecture):
-#RUN rustup target add thumbv8m.main-none-eabi
+RUN rustup target add thumbv8m.main-none-eabi
 
 #Cortex-M33F with FPU (ARMv8-M Mainline architecture):
 #RUN rustup target add thumbv8m.main-none-eabihf

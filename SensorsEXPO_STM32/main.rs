@@ -1,17 +1,4 @@
-// fn hello(val:bool) -> &str{
-//     if val{
-//         "Hello Rustacean !"
-//     }
-//     else {
-//         "Hello there !"
-//     }
-// }
-// fn main(){
-//     let bool_val:bool = false;
-//     println!("{}", hello(bool_val));
-// }
-
-
+// Lab 1 - 
 fn hello<'a>(val: bool) -> &'a str {
     if val == true{
         "Hello, Rustacean!"
