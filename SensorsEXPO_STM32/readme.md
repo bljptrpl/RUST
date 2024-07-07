@@ -69,3 +69,24 @@ https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository
         For more examples and ideas, visit:
         https://docs.docker.com/get-started/
 
+# Lab Exercise 1 – Containerize your Rust Environment
+
+Notes: Ensure you have watched and/or attended the Session 1 presentation.
+Overview:
+In this lab, you will set up the Rust environment on your machine inside of a Docker container.
+Lab Instructions:
+For this lab, you’ll need your PC and an internet connection. You won’t need your development board quite yet. The goal is to have a containerized development environment that you can use to build Rust applications.
+The major steps that you will take to accomplish this includes:
+
+1) Creating a Docker Container
+
+2) Verify your Docker Container with Rust
+
+3) Create a “Hello World!” application
+
+4) Modify “Hello World!” to become familiar with Rust functions
+
+./svd2rustU5/devManager.sh docker_image
+Building the Docker image...
+ERROR: permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Head "http://%2Fvar%2Frun%2Fdocker.sock/_ping": dial unix /var/run/do
+cker.sock: connect: permission denied                                                                                                                                             Docker image built successfully.
