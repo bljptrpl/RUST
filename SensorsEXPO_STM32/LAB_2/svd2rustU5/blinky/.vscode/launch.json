@@ -37,7 +37,7 @@
                 "interface/stlink-v2-1.cfg",
                 "target/stm32u5x.cfg"
             ],
-            "svdFile": "${workspaceRoot}/.vscode/stmu575.svd",
+            "svdFile": "${workspaceRoot}/.vscode/stm32u575.svd",
             "swoConfig": {
                 "enabled": true,
                 "cpuFrequency": 8000000,
